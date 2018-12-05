@@ -121,3 +121,51 @@ p '=========='
 shikitenkai = 'This is'
 p %w(#{shikitenkai}\ an\ apple small\nmelon orange)
 p %W(#{shikitenkai}\ an\ apple small\nmelon orange)
+
+p '=========='
+p '=========='
+
+# 4.7.11
+
+p 'Ruby'.chars
+
+p '=========='
+p '=========='
+
+# 4.7.12
+a = Array.new
+b = Array.new(5)
+c = Array.new(5, 0)
+
+p a
+p b
+p c
+
+a = nil
+a = Array.new(10) { |n| n % 3 + 1 }
+p a
+
+p '=========='
+p '=========='
+
+# 4.7.13
+a = nil
+a = Array.new(5, 'default')
+
+str = a[0]
+p str
+
+str.upcase!
+p str
+p a
+
+p '=========='
+a = nil
+a = Array.new(5) { 'default' }
+
+str = a[0]
+p str
+
+str.upcase!
+p str
+p a
