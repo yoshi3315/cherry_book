@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require "minitest/reporters"
+require 'minitest/reporters'
 Minitest::Reporters.use!
 
 require './lib/fizz_buzz'
