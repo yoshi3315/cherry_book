@@ -77,3 +77,26 @@ p a.push(b)
 
 a = []
 p a.push(*b)
+
+p '=========='
+p '=========='
+
+# 4.7.7
+
+def greeting(*names)
+  "#{names.join('と')}、こんちはー！レッツPPAP！"
+end
+
+p greeting('田中さん')
+p greeting('田中さん', '鈴木さん')
+
+name = ['田中さん', '鈴木さん']
+p greeting(name)
+
+p '=========='
+p '=========='
+
+# 4.7.8
+
+a = [1, 2, 3]
+p [-1, 0, *a, 4, 5]
