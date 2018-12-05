@@ -100,3 +100,24 @@ p '=========='
 
 a = [1, 2, 3]
 p [-1, 0, *a, 4, 5]
+
+p '=========='
+p '=========='
+
+# 4.7.10
+
+p ['apple', 'melon', 'orange']
+p %w!apple melon orange!
+p %w(apple melon orange)
+p %w(
+  apple
+  melon
+  orange
+  )
+p %w(big\ apple small\ melon orange)
+
+p '=========='
+
+shikitenkai = 'This is'
+p %w(#{shikitenkai}\ an\ apple small\nmelon orange)
+p %W(#{shikitenkai}\ an\ apple small\nmelon orange)
