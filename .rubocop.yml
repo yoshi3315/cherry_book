@@ -1,7 +1,7 @@
 AllCops:
   TargetRubyVersion: 2.4.1
   Exclude:
-  - 'sample/chapter_2/**/*'
+  - 'sample/**/*'
 
 # メソッドの行数が多すぎる
 MethodLength:
