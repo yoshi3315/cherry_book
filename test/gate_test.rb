@@ -5,6 +5,7 @@ require 'minitest/reporters'
 Minitest::Reporters.use!
 
 require './lib/gate'
+require './lib/ticket'
 
 class GateTest < Minitest::Test
   def test_gate
