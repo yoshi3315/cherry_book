@@ -9,5 +9,6 @@ class Gate
   end
   
   def exit(ticket)
+    true
   end
 end
