@@ -5,5 +5,5 @@ require './lib/deep_freezable'
 class Team
   extend DeepFreezable
 
-  COUNTRIES = deep_freeze(['japan', 'US', 'India'])
+  COUNTRIES = deep_freeze(%w[japan US India])
 end
