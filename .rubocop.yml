@@ -1,8 +1,9 @@
+inherit_from: .rubocop_todo.yml
+
 AllCops:
   TargetRubyVersion: 2.4.1
   Exclude:
   - 'sample/**/*'
-  - 'test/deep_freezable_test.rb'
 
 # メソッドの行数が多すぎる
 MethodLength:
